@@ -22,12 +22,11 @@ The pipeline includes image preprocessing, dataset splitting, model training, ev
 
 ## 📂 Project Structure
 chest-xray-pipeline/
-│── 📄 chest_xray_pipeline.py # Main pipeline script
+│── 📄 app.py # Main pipeline script
+│── 📄 image_class.ipynb
 │── 📄 requirements.txt # Python dependencies
 │── 📄 README.md # Project documentation
-│── 📂 dataset/ # Dataset folder (contains X-ray images)
-│ ├── normal/
-│ └── pneumonia/
+
 
 🚀 Usage
 Train and Evaluate Models
@@ -69,7 +68,5 @@ pip install -r requirements.txt
 🧠 Future Improvements
 
 Add deep learning models (CNNs).
-
 Implement cross-validation for better performance estimation.
-
 Include Grad-CAM or other visualization techniques.
